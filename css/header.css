@@ -1,0 +1,72 @@
+header{
+  position: fixed;
+  width: 25%;
+  padding: 1rem;
+  box-sizing: border-box;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.nav_section{
+  margin-bottom: 1em;
+}
+
+.nav_heading,
+.nav_links{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.nav_heading{
+  width: 8rem;
+}
+
+.nav_links{
+  width: calc(100% - 8rem);
+  text-align: right;
+}
+
+.nav_links a{
+  display: inline-block;
+}
+
+#main_nav{
+  position: absolute;
+  left: 1rem;
+  right: 1rem;
+  bottom: 6rem;
+}
+
+#newsletter_signup{
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  right: 1rem;
+  font-family: 'OsmoseRahul-Regular', Arial, sans-serif;
+  font-size: 1rem;
+}
+
+#newsletter_signup input,
+#newsletter_signup button{
+  font-family: 'OsmoseRahul-Regular', Arial, sans-serif;
+  font-size: 1rem;
+  box-sizing: border-box;
+  color: #fff;
+  background-color: #201e1e;
+}
+
+#newsletter_signup input{
+  outline: none;
+  border: none;
+  border-bottom: 1px solid;
+  box-sizing: border-box;
+  width: calc(100% - 5rem);
+  vertical-align: bottom;
+}
+
+#newsletter_signup button{
+  width: 5rem;
+  outline: none;
+  border: 1px solid;
+}
