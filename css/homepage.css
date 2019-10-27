@@ -1,0 +1,98 @@
+.homepage_features{
+  margin-bottom: 2rem;
+}
+
+.feature_section_heading{
+  margin-bottom: 2rem;
+  padding-left: 1rem;
+  /*border-bottom: 2px solid;*/
+}
+
+.feature_container{
+  display: block;
+  position: relative;
+  border-top: 2px solid;
+  border-right: 2px solid;
+  border-bottom: 2px solid;
+  border-radius: 2rem;
+  padding: 1rem;
+  margin-bottom: 4rem;
+}
+
+body.internal .feature_container:after,
+body.internal .feature_container:before{
+  background-color: rgb(165, 165, 165);
+}
+
+body.internal .feature_container:hover{
+  background-color: #201e1e;
+  color: rgb(165, 165, 165);
+}
+
+.feature_container:hover{
+  background-color: rgb(165, 165, 165);
+  color: #201e1e;
+}
+
+.feature_container:hover:before{
+  opacity: 0;
+}
+
+.feature_container:after,
+.feature_container:before{
+  content: '';
+  position: absolute;
+  background-color: #201e1e;
+}
+
+.feature_container:before{
+  top: -2px;
+  bottom: -2px;
+  right: 2rem;
+  left: 0;
+  z-index: 1;
+}
+
+.feature_container:after{
+  top: 2rem;
+  bottom: 2rem;
+  width: 2px;
+  right: -2px;
+}
+
+.feature_content{
+  position: relative;
+  z-index: 2;
+}
+
+.feature_sub_heading{
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 1rem;
+  width: 60%;
+}
+
+.feature_date{
+  text-align: right; 
+  margin-top: 0.8rem;
+  padding-right: 1rem;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+}
+
+.feature_image{
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+}
+
+.feature_description{
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  box-sizing: border-box;
+  width: 70%;
+}

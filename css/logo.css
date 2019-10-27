@@ -1,4 +1,4 @@
-@keyframes scrollout{
+ @keyframes scrollout{
   0%{
     transform: translateY(0);
     -webkit-transform: translateY(0);
@@ -80,7 +80,7 @@
 .footnote{
   display: inline-block;
   font-size: 0.7em;
-  transform: translate(0.2rem, -0.2rem);
+  transform: translate(0.2rem, -0.2em);
 }
 
 .logo_component{
@@ -92,12 +92,15 @@
   bottom: 0;
   height: calc(100% - 20vh);
   left: 25%;
-  width: 35%;
   margin: 10vh 2rem;
   padding-top: 10vh;
   box-sizing: border-box;
   position: fixed;
   /*-webkit-transform: translateY(0);*/
+}
+
+.small_logo_container .logos_section{
+  width: 15%;
 }
 
 .section1{

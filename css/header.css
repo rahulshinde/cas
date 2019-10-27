@@ -31,6 +31,20 @@ header{
   display: inline-block;
 }
 
+.nav_links a:hover,
+.nav_links a.selected{
+  padding-right: 1.5rem;
+  box-sizing: border-box;
+}
+
+.nav_links a:hover:after,
+.nav_links a.selected:after{
+  content: '→';
+  position: absolute;
+  right: 0;
+
+}
+
 #main_nav{
   position: absolute;
   left: 1rem;
@@ -43,13 +57,20 @@ header{
   bottom: 1rem;
   left: 1rem;
   right: 1rem;
-  font-family: 'OsmoseRahul-Regular', Arial, sans-serif;
+  font-family: 'Osmose', Arial, sans-serif;
   font-size: 1rem;
+}
+
+.internal #newsletter_signup input,
+.internal #newsletter_signup button{
+  background-color: rgb(165, 165, 165);
+  color: #201e1e;
+
 }
 
 #newsletter_signup input,
 #newsletter_signup button{
-  font-family: 'OsmoseRahul-Regular', Arial, sans-serif;
+  font-family: 'Osmose', Arial, sans-serif;
   font-size: 1rem;
   box-sizing: border-box;
   color: #fff;
